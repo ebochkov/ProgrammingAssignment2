@@ -2,7 +2,7 @@
 ## matrix inversion with caching functionality.
 ## 'makeCacheMatrix' function creates a wrapper
 ## object for storring and accessing to the original
-## and inverted matrix
+## and inverted matrix.
 ## 'cacheSolve' function calculates inversed matrix by getting 
 ## cached result if it's available or actual calculating using
 ## 'solve' function.
@@ -10,7 +10,7 @@
 
 ## Creates a wrapper object for accessing original and inverted matrix.
 ## Arguments 
-## original.matrix - matrix that should be inverted.
+## x - matrix that should be inverted.
 ## Returns 
 ## List of methods for accessing original and inverted matrix.
 makeCacheMatrix <- function(x = matrix()) {
